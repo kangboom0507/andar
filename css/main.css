@@ -1,0 +1,97 @@
+/*공통부분*/
+.sc-title { padding: 50px 16px 22px; font-size: 20px; line-height: 29px; color: #333; letter-spacing: -0.05em; font-weight: 700; } 
+.text-box .review { display: block; font-size: 13px; font-weight: 600; color: #8e1f29; line-height: 13px; } 
+.text-box .strong { color: #333; line-height: 17px; font-size: 14px; padding: 10px 0; display: block; } 
+.text-box .discount { font-weight: 500; margin-right: 5px; color: #8e1f29; } 
+.text-box .desc { display: inline-block; font-size: 15px; color: #333; font-weight: 500; line-height: 16px; letter-spacing: -0.03em; } 
+.text-box .del { font-size: 13px; line-height: 18px; font-weight: 400; margin-left: 5px; color: #8d8d8d; } 
+.text-box .color { display: block; font-size: 13px; line-height: 11px; color: #999; letter-spacing: -0.05em; font-weight: 500; padding-top: 9px; padding-bottom: 8px; } 
+.date-box { display: inline-block; margin-top: 5px; font-size: 9px; color: #8e1f29; border: 1px solid rgba(142,31,41,0.5); padding: 5px 6px; font-weight: 500; line-height: 9px; box-sizing: border-box; } 
+.img-box img{ width: 100%;}
+
+
+/*버튼공통*/
+.more-box {position: relative;padding: 0 38px;margin: 0 auto;box-sizing: border-box;margin-bottom: 65px; } 
+.more { display: block; box-sizing: border-box; border: 1px solid #e0e0e0; width: 100%; height: 52px; line-height: 52px; color: #222; text-align: center; font-size: 15px; font-weight: 500; } 
+.more::after { content: ''; display: inline-block; width: 19px; height: 19px; padding-left:10px; background: url(../images/icon/go-cate.png) no-repeat; background-size: 19px auto; background-position: center; position: absolute; top: 50%; transform: translateY(-50%); }
+
+
+
+
+.container {}
+.sc-visual { width: 100%; } 
+.sc-visual .swiper { height: calc(100vh - 140px); background: #f00; } 
+
+.sc-visual .swiper-slide .visual-box { height: 100%; } 
+.sc-visual .swiper-slide img { width: 100%; height: 100%; object-fit: cover; } 
+.sc-visual .visual-txt { position: absolute;  width: 100%; height: auto; padding: 20% 7.5%; box-sizing: border-box; bottom: 0; } 
+.sc-visual .visual-txt .strong { font-size: 30px; line-height: 1.25; letter-spacing: -1.3px; color: #fff; font-weight: 700;}
+.sc-visual .visual-txt .desc { padding-top: 15px; font-size: 17px; line-height: 1.4; letter-spacing: -0.5px; color: #fff;}
+
+.sc-visual .swiper .swiper-pagination { bottom: 37px; } 
+.sc-visual .swiper .swiper-pagination-bullet { width: 20px; height: 2px; border-radius: 0; background: #fff; margin: 0; } 
+/*visual 끝*/
+
+ 
+.best-area .best-list ,.sc-new .new-list{ display: flex; flex-wrap: wrap; justify-content: space-between; box-sizing: border-box; } 
+.best-area .best-list .gnb-item,.sc-new .new-list .gnb-item { box-sizing: border-box; width: 50%; padding-bottom: 50px; padding-right: 1.11%; } 
+.gnb-item.img-box img { display: block; width: 100%; height: auto; } 
+.gnb-item .text-box { padding: 15px 5% 0; } 
+/*best,new 끝*/
+
+.coupon-banner {width: 90%;max-width: 1200px;margin: 60px auto 120px; } 
+.coupon-banner a { display: block; } 
+.coupon-banner img { width: 100%; } 
+/*coupon 끝*/
+
+
+
+ .content02 {padding-top: 40px;} 
+ .sc-lookbook .lookbook-img img { max-width: 100%; } 
+
+ .lookbook .look-txt { display: block; padding: 20px 16px 20px; box-sizing: border-box; } 
+ .lookbook .look-txt .title { font-size: 26px; line-height: 35px; color: #333; font-weight: 700; letter-spacing: -0.05em; }
+ .lookbook .look-txt .desc { display: block; padding: 14px 0 28px; font-size: 16px; font-weight: 400; color: #333; letter-spacing: -0.05em; } 
+ .lookbook .look-txt .lookbook-more { display:inline-block; position: relative; background: #1e1e1e; border-radius: 2px; border: 1px solid #1e1e1e; box-sizing: border-box; font-size: 14px; line-height: 20px; letter-spacing: -0.03em; color: #fff; font-weight: 500; padding: 8px 47px 8px 18px; } 
+ .lookbook .look-txt .lookbook-more:after { content: ''; display: inline-block; width: 31px; height: 18px; background: url(../images/icon/more.png) no-repeat; background-size: 15px auto; position: absolute; right: 0; bottom: 5px;
+ }
+ 
+ .lookbook-wrap .gnb-item { position: relative; padding: 20px 16px; box-sizing: border-box; display: flex; align-items: flex-start; justify-content: start; } 
+ .lookbook-wrap .gnb-item::after { content: ''; display: block; width: 100%; height: 1px; background: #ccc; position: absolute; bottom: 0; } 
+ .lookbook-wrap .gnb-item:last-child::after { display: none; } 
+ .lookbook-wrap .lookbook-img-box { position: relative; display: block; } 
+ .lookbook-wrap .gnb-item .img-box img { max-width: 110px; } 
+ .lookbook-wrap .text-box {  padding: 0 0 0 24px; } 
+/*lookbook 끝*/
+
+
+
+.brandstory-banner {display: block;position: relative;padding: 56px 20px;background: #c86733; } 
+.brandstory-banner .brandstory {color: #fff; } 
+.brandstory .story {display: inline-block;font-size: 18px;letter-spacing: -0.5px;border-bottom: 1.5px solid #fff;font-weight: 400;line-height: 1.2;margin: 0 auto 10px;padding-bottom: 5px; } 
+.brandstory .brand-title {font-size: 30px;font-weight: 700;line-height: 36px;letter-spacing: -0.03em; } 
+.brandstory .kor {padding: 10px 0 5px;font-size: 12px;line-height: 1.4;letter-spacing: -0.02em; } 
+.brandstory .story-more {display: inline-block;width: 100px;margin-top: 20px;font-size: 12px;line-height: 14px;font-weight: 500;text-align: center;box-sizing: border-box;padding: 10px 0;border:1px solid #fff; } 
+/*brandstory-banner*/
+
+
+
+.sc-product {padding-left: 20px; } 
+.product-wrap { position: relative; } 
+.product-wrap .pr-title { font-size: 20px; display: inline-block; font-weight: 600; padding: 30px 0; line-height: 24px; color: #333; } 
+
+.product-wrap .product-list { display: block; display: flex; }
+
+
+.pr-more {display: inline-block;position: absolute;top: 30px;right: 5%;font-size: 14px;line-height: 1.5;padding: 0 5px; } 
+ .pr-more::after { content: ''; display: inline-block; width: 15px; height: 15px; background: url(../images/icon/leggings-more.png) no-repeat; background-size: 15px auto; background-position: center; margin-left: 3px; vertical-align: middle;margin-bottom: 2px;} 
+/*product 끝*/
+
+.sc-banner {padding-top: 70px;color: #fff; } 
+.banner-title { font-size: 26px; line-height: 31px; font-weight: 700; letter-spacing: -0.02em; } 
+.banner-desc { font-size: 15px; line-height: 1.4; letter-spacing: -0.02em; padding: 15px 0 30px; box-sizing: border-box; } 
+.banner-more { border:1px solid #fff; padding: 7px 28px 8px; font-size: 15px; line-height: 18px; letter-spacing: -0.03em; box-sizing: border-box; } 
+.membership-banner { background: url(../images/bg/membership-banner.jpg) no-repeat; background-size: cover; padding: 65px 20px; box-sizing: border-box; background-position: center; margin: 0 auto;}
+.info-banner { background: url(../images/bg/info-banner.jpg) no-repeat; padding: 80px 20px 74px; background-size: cover; background-position: center; box-sizing: border-box; margin: 10px auto 0; } 
+/*banner 끝*/
+

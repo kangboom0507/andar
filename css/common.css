@@ -1,0 +1,83 @@
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../font/Gilroy-Regular.woff2) format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../font/Gilroy-Medium.woff2) format("woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../font/Gilroy-SemiBold.woff2) format("woff2");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../font/Gilroy-Bold.woff2) format("woff2");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'noto'; 
+    src: url(../font/NotoSansKR-Light-Hestia.woff) format("woff2");
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'noto';  
+    src: url(../font/NotoSansKR-Regular-Hestia.woff) format("woff2");
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'noto';  
+    src: url(../font/NotoSansKR-Medium-Hestia.woff) format("woff2");
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'noto';  
+    src: url(../font/NotoSansKR-Bold-Hestia.woff) format("woff2");
+    font-weight: 700;
+}
+
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    margin: -1px;    
+    clip:rect(0,0,0,0);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border:0;
+    outline:0;
+    vertical-align: baseline;
+    font-family: 'Gilroy','noto','Malgun Gothic','맑은 고딕','Dotum','돋움',sans-serif;;
+}
+
+body.hidden{
+    overflow: hidden;
+}
+
+.dimmed{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom:0;
+    right: 0;
+    background: #000;
+    opacity: 0.3; 
+    display: none;
+}
+
+body.hidden .dimmed{
+    display: block;
+}
